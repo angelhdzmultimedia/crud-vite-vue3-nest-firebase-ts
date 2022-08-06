@@ -7,6 +7,7 @@ export class AppController {
   constructor(private readonly appService: AppService) {}
 
   @Get()
+  @Redirect('https://node-9dvwhs--5000.local.webcontainer.io', 200)
   getHello(): string {
     return this.appService.getHello();
   }
