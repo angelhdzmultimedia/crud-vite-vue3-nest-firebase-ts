@@ -2,7 +2,7 @@
   "name": "node-starter",
   "version": "0.0.0",
   "scripts": {
-    "test": "concurrently \"cd client && npm i && npm run dev\" \"cd server && npm i && npm run dev\""
+    "test": "concurrently \"cd client && npm i && npm run dev\" \"cd server && npm i && npm run start:dev\""
   },
   "dependencies": {
     "@nestjs/cli": "^9.0.0",
